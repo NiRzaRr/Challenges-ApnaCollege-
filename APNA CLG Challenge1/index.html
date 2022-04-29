@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Train+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+    <title>FORM</title>
+    
+</head>
+<body>
+    <h1 style="text-align: center;" >STUDENT   DETAILS</h1>
+    <form> <p> (Field with * are compulsory) </p>
+      <p>NAME* :  <input type="text" placeholder="Ex. Nirzar" required></p> 
+      <fieldset> <legend> GENDER :</legend>
+      <p>  Male <input type="radio" name="Gender" id="Male"> Female <input type="radio" name="Gender" id="Female"> 
+      </fieldset>
+      <p>
+          QUALIFICATION* : <select name="QUALIFICATION" id="QUALIFICATION" required>
+             <option value="">--Select your Qualification--</option> 
+          <option value="10th Pass">10th Pass</option>
+          <option value="10+2 Equivalent">10+2 Equivalent</option>
+          <option value="Graduation">Graduation </option>
+          <option value="Dimploma">Dimploma</option>
+          </select>
+      </p>
+      <p>
+          YEAR OF STUDY : <select name="Year Of Study" id="Year Of Study">
+              <option value="">--Select Year Of Study (If Any)-- </option>
+              <option value="1st">1st</option>
+              <option value="2nd">2nd</option>
+              <option value="3rd">3rd</option>
+              <option value="4th">4th</option>
+          </select>
+          <p class="add">
+              ADDRESS* : <textarea name="Address" id="Address" cols="76" rows="8"></textarea>
+          </p>
+      <p class="mob" > 
+          MOBILE NUMBER* : <input type="number" name="Mob_No." id="Mob_No." placeholder="Ex. +91 1234567890" required>
+      </p> 
+      <p>
+          EMAIL* : <input type="email" name="Email" id="Email" placeholder="Ex. abc@gmail.com" required>
+      </p>
+      <p>
+        <input type="submit" value="SUBMIT">
+      </p>
+      
+    </form>
+ 
+</body>
+</html> 
+
+
+1

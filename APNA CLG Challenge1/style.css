@@ -1,0 +1,53 @@
+
+h1{
+    background-color: rgb(238, 214, 214);
+    color: rgb(3, 3, 1);
+    font-size: 42px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-shadow: 3.5px 3.5px 1px  rgb(241, 241, 185);
+    font-family: Train One ;
+    word-spacing: 0.55cm;
+    }
+    body{
+        border: 3px solid gray;
+        padding: 15px ;
+        background-color: rgb(245, 237, 237);
+    }
+    form
+    input[type="text"],
+    input[type="select"],
+    input[type="number"],
+    input[type="email"]{
+           padding: 8px ;
+           width: 54%;
+           margin-right: 55%;
+           border: solid rgb(241, 241, 185);
+           margin-top: 5px;
+           
+           
+    }
+    fieldset{
+        width: 53.3%;
+        border: solid rgb(241, 241, 185);
+        background-color:rgb(255, 254, 254);
+    }
+    textarea{
+        
+        width: 54.75%;
+        margin-right: 45%;
+        border: solid rgb(241, 241, 185);
+        margin-top: 5px;
+    }
+    input[type=submit] {
+        padding: 7px;
+        color: black;
+        background-color: rgb(148, 218, 78);
+        width: 20%;
+        margin-left: 15%;
+        border: none;
+        border-radius: 5px;
+        }
+    input[type=submit]:hover{
+        background-color: rgb(114, 182, 47);
+    }
