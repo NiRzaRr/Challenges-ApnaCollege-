@@ -1,0 +1,67 @@
+.box{
+    margin: auto;
+    
+    width: 100%;
+}
+
+ @media screen and (max-width: 1340px)
+ {
+     body {
+         color: white;
+         background-color: black ;
+         width: auto;
+         margin: auto;
+        
+     }
+     .box{
+         margin: auto;
+        
+     }
+     img{
+         width:250px;
+     }
+ }
+  @media screen and (max-width: 1100px)
+ { body{
+    
+     margin: auto;
+     background-color: rgb(0, 0, 0);
+ }
+ .box{
+         margin: auto;
+         
+     }
+ img{
+         width:205px;
+     }
+ } 
+ @media screen and (max-width: 908px)
+ { body{
+     
+     margin: auto;
+     background-color: rgb(0, 0, 0);
+ }
+ .box{
+         margin: auto;
+         
+         width: auto;
+     }
+ img{
+         width:300px;
+     }
+ } 
+ 
+
+  .a{
+      
+      display: inline-block;
+      padding: 1%;
+      border-radius: 8px;
+      box-shadow: 2px 2px 3px  rebeccapurple;
+      cursor: pointer;
+      transform: scale(0.5);
+      
+  }
+  .a:hover{
+      transform: scale(0.6);
+  }
