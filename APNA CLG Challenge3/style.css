@@ -1,0 +1,39 @@
+body{
+    border-radius: 5px;
+    border: solid blue;
+    background-color: aqua;
+    margin-left: 10%;
+    width: 80%;
+    margin-right: 0px;
+}
+h1{
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.box{
+    width: 80%;
+    border-radius: 5px;
+    border: solid green;
+    overflow: hidden;
+    padding: 5px;
+    margin-left: 10%;
+    background-color: rgb(178, 184, 184);
+    cursor: pointer;
+}
+.one{
+    padding: 2px;
+    margin-right: 15px;
+   float: left;
+   
+}
+
+.two{
+    padding: 2px;
+    margin-left: 15px;
+    float: right;
+}
+.box:hover{
+    transform: scale(1.1);
+}
