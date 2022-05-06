@@ -1,0 +1,57 @@
+h1{
+    text-align: center;
+    border-radius: 5px;
+    padding: 5%;
+    background-color: aqua;
+}
+nav{
+    border-radius: 2px;
+    position: sticky;
+    word-spacing: 5px;
+    padding: 4px;
+    margin-left: 17.5%;
+    color: blanchedalmond;
+    width: 60%;
+    background-color: rgb(105, 104, 104);
+    text-align: center;
+    top: 0px;
+    left: 5px;
+}
+a{
+    text-decoration: none;
+    /* position: absolute; */
+    font-style: none;
+    font-size: 21px;
+    margin-left: 5%;
+    padding: 3px;
+    margin-right: 5%;
+    color: blanchedalmond;
+    border-radius: 10px;
+}
+span{
+    font-size: 19px;
+}
+.active{
+    background-color: rosybrown;
+}
+a:hover{
+   background-color: rosybrown;
+}
+.aaa{
+    text-align: center;
+    border-radius: 5px;
+    transition: all 1s ease-in-out 0s;
+    background-color: rosybrown;
+    overflow: hidden;
+    width: 60%;
+    height: 2%;
+    margin-left: 17%;
+    transform: scale(0.5);
+    padding: 15px;
+}
+.aaa:hover
+    {
+    transform: scale(1);
+    width: 65%;
+    }
+    
