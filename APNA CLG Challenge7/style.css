@@ -1,0 +1,34 @@
+body{
+    margin: 0px;
+    width: 100%;
+    
+}
+.col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: stretch;
+}
+.first{
+   border: solid salmon;
+   flex-shrink: 2;
+   height: 99.3vh;
+ }
+.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 8;
+    align-content: stretch;
+}
+.head{
+    border: solid salmon;
+    flex-grow: 1;
+}
+.body{
+    border: solid salmon;
+    flex-grow: 4;
+}
+textarea{
+    margin-right: 5px;
+}
