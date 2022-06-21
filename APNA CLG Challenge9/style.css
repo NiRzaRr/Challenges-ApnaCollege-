@@ -1,0 +1,38 @@
+body{
+    width: 100%;
+    margin: 0px;
+    
+}
+.box{
+    display: grid;
+    grid-template-columns: 300px 1225px;
+    column-gap: 2px;
+
+}
+.f1{
+    display: grid;
+    border: 1px solid darkorange;
+    background-color: rgb(240, 197, 183);
+    height: 99vh;
+    
+}
+.s2{
+    display: grid;
+    height: 99vh;
+    row-gap: 2px;
+    grid-template-rows: 15vh 68.75vh 15vh;
+}
+.hf{
+    border: 1px solid darkorange;
+    background-color: rgb(240, 197, 183);
+    
+}
+.mid{
+    border: 1px solid darkorange;
+    background-color: rgb(240, 197, 183);
+}
+.mid1{
+    display: grid;
+    grid-template-columns: 900px 325px;
+    column-gap: 2px;
+}
